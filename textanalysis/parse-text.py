@@ -1,12 +1,15 @@
 # ------------------------------------------------------------------------
 # Script for text parsing and analysis
-#
-# Parses a text file and returns analysis on its words:
+# Reads a text file and returns analysis in the console in table format:
 #    - number of individual words
 #    - number of words with >5 characters
 #    - mumber of words with <5 characters
 #    - number of words with an even amount of characters
-#    - number of words with an odd amount of characters
+#    - number of words with an odd amount of characters# 
+# ------------------------------------------------------------------------
+# Created 3-3-2018
+# Author: Alison Howland
+# alisonhowland@gmail.com
 # ------------------------------------------------------------------------
 
 import nltk
