@@ -69,6 +69,8 @@ If saved output is desired, the file need not be empty; text-analysis will appen
 
 # Further details
 
+### This script was created originally to analyze [text_passage.txt](https://github.com/alisonhowland/text-analysis/blob/master/text_passage.txt) 
+
 Duplicate words are not considered in any of the counts returned.
 
 Contractions are split into two words, and punctuation within a word counts toward the character count. For example: ("don't") results in the tokens ("do" , "n't"), with respective character counts of 2 and 3.
