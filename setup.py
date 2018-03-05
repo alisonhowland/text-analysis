@@ -6,5 +6,11 @@ setup(name='textanalysis',
 	author='Alison Howland',
 	author_email='alisonhowland@gmail.com',
 	license='none',
-	packages=['textanalysis'],
+	packages=['textaanalysis'],
+	install_requires=[
+		'nltk',
+		'string',
+		'terminaltables',
+		'sys'
+	]
 	zip_safe=False)
