@@ -1,5 +1,5 @@
 # text-analysis
-Python script to read a text file, analyze it, and output (and save, if desired) selected analysis results to the terminal: 
+Python script to read a text file, analyze it, then output (and save, if desired) the following analysis results to the terminal: 
 
   - number of distinct words present in the text
   - number of words with fewer than five characters
@@ -19,7 +19,7 @@ Check installation by running `python3` if installed with `pip3` (or `python` if
 
     $ pip3 install terminaltables
 
-text-analysis was created and tested using Python 3, but should work with Python 2.x as well. Example and instructions on this page use `python3` and `pip3`; substitute with `python` and `pip` if not using Python 3. 
+text-analysis was created and tested using Python 3, but should work with Python 2.x as well. Example and instructions on this page use `python3` and `pip3`; substitute with `python` and `pip` where needed. 
 
 # Usage
 ## [parse-text.py](https://github.com/alisonhowland/text-analysis/blob/master/textanalysis/parse-text.py)
@@ -65,9 +65,6 @@ If saved output is desired, the file need not be empty; text-analysis will appen
     ['Words with >5 characters', 0]
     ['Words with odd number of chars', 5]
     ['Words with even number of chars', 5]
-
-    
-
 
 
 # Further details
