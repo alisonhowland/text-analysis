@@ -77,4 +77,4 @@ Numbers are considered words and are counted. For example: "153rd" is considered
 
 # Lastly
 
-Package and additional dependency files are not yet completed, so `pip` installation is not currently supported. Contact the author with any further questions.  
+Package and additional dependency files (setup.py, etc.) are not yet complete, so `pip` installation is not currently supported. Contact the author with any further questions.  
