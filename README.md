@@ -11,15 +11,15 @@ Python script to read a text file, analyze it, then output (and save, if desired
 
 ### [nltk](https://www.nltk.org/install.html):
 
-    $ pip3 install nltk
+    $ pip install nltk
     
-Check installation by running `python3` if installed with `pip3` (or `python` if installed with `pip`) then `import nltk`.
+Check installation by running `python` then `import nltk`.
 
 ### [terminaltables](https://github.com/Robpol86/terminaltables):
 
-    $ pip3 install terminaltables
+    $ pip install terminaltables
 
-text-analysis was created and tested using Python 3, but should work with Python 2.x as well. Example and instructions on this page use `python3` and `pip3`; substitute with `python` and `pip` where needed. 
+text-analysis was created and tested using Python 3, but should work with Python 2.x as well. Examples and instructions on this page use `python` and `pip`; substitute with `python3` and `pip3` if your machine requires the distinction to run Python 3 (as the creator's does). 
 
 # Usage
 ## [parse-text.py](https://github.com/alisonhowland/text-analysis/blob/master/textanalysis/parse-text.py)
@@ -40,7 +40,7 @@ Say we have text file `sample.txt`:
 
 To analyze the text:
     
-    $ python3 parse-text.py sample.txt
+    $ python parse-text.py sample.txt
     File: 'sample.txt'
 
     +Text analysis--------------------+----+
