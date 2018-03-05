@@ -1,5 +1,5 @@
 # text-analysis
-Python script to read a text file, analyze it, then output (and save, if desired) the following analysis results to the terminal: 
+Python script (Unix/Linux system) to read a text file, analyze it, then output (and save, if desired) the following analysis results to the terminal: 
 
   - number of distinct words present in the text
   - number of words with fewer than five characters
